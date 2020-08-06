@@ -63,6 +63,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+  color: #444;
+  font-weight: 500;
+}
+
 h1 {
   font-size: 48px;
   line-height: 50px;
@@ -1695,6 +1702,7 @@ preview-2
   color: #fff;
 }
 
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2352,6 +2360,7 @@ span.email-notes {
   margin: 0;
   padding-top: 30px;
 }
+
 
 /*--------------------------------------------------------------
 # Footer
