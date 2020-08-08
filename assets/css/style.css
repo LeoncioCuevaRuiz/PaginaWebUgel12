@@ -2750,3 +2750,97 @@ span.email-notes {
     padding: 0;
   }
 }
+
+
+/*.conteiner{
+  border: 1px solid #000;
+  width: 80%;
+  margin: auto;
+  background: #000;
+
+}
+
+.intranet{
+  background: red;
+  width: 20%;
+  float: left;
+  padding: 10px 5px;
+}
+
+.galeria{
+  background: pink;
+  width: 60%;
+  padding: 10px 5px;
+
+}
+
+.imagenP{
+  width: 300px;
+  margin:auto;
+}*/
+
+.contenedor{
+  width: 80%;
+  margin: auto;
+}
+
+.caja1{
+  border: 2px solid #c80000;
+  display: inline-block;
+  width: 25%;
+  float: left;
+  height: 300px;
+  padding: 10px 10px;
+  margin-right: 5%;
+}
+.caja1 h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.caja2{
+  border: 2px solid #c80000;
+  display: inline-block;
+  width: 70%;
+  height: 500px;
+  padding: 20px 30px;
+}
+
+.caja2 h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.intranet_form{
+  width: 100%;
+  
+  padding: 10px;
+  
+}
+
+.intranet_form label{
+  font-size: 15px;
+  display: block;
+  width: 100%;
+}
+
+.intranet_form input{
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.intranet_form input[type="submit"]{
+  margin-bottom:0;
+  background: #1668c4;
+  color: #fff;
+  border: none;
+}
+
+.intranet_form input[type="submit"]:hover{
+  background:#4A88F4;
+  cursor: pointer;
+
+}
