@@ -101,20 +101,19 @@
     <!-- ======= Departments Section ======= -->
     <section id="departments" class="departments">
       <div class="container" data-aos="fade-up">
-
+        
         <div class="row">
           <div class="col-3">
-          <div class="list-group" id="myList" role="tablist">
-            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#home" role="tab">Quienes Somos</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#profile" role="tab">Organigrama</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#messages" role="tab">Insituciones Educativas</a>
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Quienes Somos</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Organigrama</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Instiuciones Educativas</a>
+            </div>
           </div>
-        </div>
-          
-        <div class="col-9">
-          <div class="tab-content">
-            <div class="tab-pane active" id="home" role="tabpanel">
-              <div class="card text-center">
+          <div class="col-9">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">            
+              <div class="card">
                 <div class="card-body">
                   <div class="row">
                     <!-- single-well start-->
@@ -160,7 +159,7 @@
                   <div class="well-middle">
                       <div class="single-well">
                           <div class="text-center">
-                              <h2>Mision</h2>
+                              <h2>QUIENES  SOMOS</h2>
                           </div>
                       <p>
                           Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
@@ -188,7 +187,7 @@
                 <div class="well-middle">
                     <div class="single-well">
                         <div class="text-center">
-                            <h2>Vision</h2>
+                            <h2>QUIENES  SOMOS</h2>
                         </div>
                     <p>
                         Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
@@ -201,79 +200,83 @@
             </div>
                 </div>
               </div>
-            </div>
-            <div class="tab-pane" id="profile" role="tabpanel">
-              <div class="card text-center">
-                <div class="card-body">
-                  <h3 class="card-title">Organigrama</h3>
-                  <p class="card-text">
-                    <img src="assets/img/about/2.jpg" class="card-img-bottom" alt="...">
-                  </p>
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Organigrama</h3>
+                    <p class="card-text">
+                      <img src="assets/img/about/2.jpg" class="card-img-bottom" alt="...">
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <br>
-            <div class="tab-pane" id="messages" role="tabpanel">
-              <div class="row row-cols-1 row-cols-md-2">
-                <div class="col mb-4">
-                  <div class="card">
-                    <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Nombre Instidicion</h5>
-                      <p class="card-text">Descripcion</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col mb-4">
-                    <div class="card">
-                      <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Nombre Instidicion</h5>
-                        <p class="card-text">Descripcion</p>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row row-cols-1 row-cols-md-2">
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col mb-4">
-                    <div class="card">
-                      <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Nombre Instidicion</h5>
-                        <p class="card-text">Descripcion</p>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col mb-4">
-                    <div class="card">
-                      <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Nombre Instidicion</h5>
-                        <p class="card-text">Descripcion</p>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col mb-4">
-                    <div class="card">
-                      <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Nombre Instidicion</h5>
-                        <p class="card-text">Descripcion</p>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  <div class="col mb-4">
-                    <div class="card">
-                      <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Nombre Instidicion</h5>
-                        <p class="card-text">Descripcion</p>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
+                      <div class="col mb-4">
+                        <div class="card">
+                          <img src="assets/img/about/2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Nombre Instidicion</h5>
+                            <p class="card-text">Descripcion</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
                   </div>
-              </div>  
+                </div> 
+              </div>          
             </div>
           </div>
         </div>
-          </div>
+        <br>
       </div>
     </section><!-- End Departments Section -->
 
